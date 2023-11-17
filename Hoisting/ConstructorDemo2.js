@@ -6,14 +6,15 @@ class Person {
     this.name = xyz;
   }
 
+  // function 
   introduce() {
     console.log(`Hello, my name is ${this.name}`);
   }
 }
 
 // object declaration in javascript
-const otto = new Person("Otto");
-otto.introduce(); // Hello, my name is Otto
+const sample = new Person("Otto");
+sample.introduce(); // Hello, my name is Otto
 
 const sam = new Person("samoan");
 sam.introduce()
