@@ -1,3 +1,4 @@
+//array has been decalred
 const arr1 = [1, 2, 3];
 //spread operator used inside the array
 const arr2 = [...arr1, 4, 5]; 

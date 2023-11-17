@@ -3,7 +3,7 @@
 // var arr2=["Java","JavaScript","Android"];  
 // var result=arr1.concat(arr2);  
 // console.log(result);  
-// console.log(arr1);  
+// console.log(arr1);  // the existin array will not be affected
 
 // copy with in 
 //      [0          ,1        ,       2,        3]        
@@ -41,7 +41,7 @@
 // // function with argument and return type
 // function check(value)  
 // {  
-//   return value<30;   
+//   return value<0;   
 // }   
 // console.log(marks.every(check));  
 
@@ -71,7 +71,7 @@
 
 //Array.prototype.filter -> exact result
 //Array.prototype.every -> true/false
-//filter -> its going to identofy the condition across
+// filter -> its going to identofy the condition across
 // all the vlaues inside the array
 // var marks=[50,40,45,37,20];// array 
 // // function with parameter  
@@ -104,8 +104,8 @@
 // var arr = ["C", "C++", "Python"];  
 // // function we call it as anonimous which holds the parameter
 // // parameter will hold all the values inside the array
-// arr.forEach(function(fetch) {  
-//   console.log(fetch);  
+// arr.forEach(function(xyz) {  
+//   console.log(xyz);  
 // })
 
 
@@ -130,10 +130,10 @@
 //slice
 //      [0          , 1       ,  2     ,3        ]
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
-// // slice(starting index value of first, excludes the index)
+// slice(starting index value of first, excludes the index)
 // var result=arr.slice(1,3);  
 // console.log(result); 
-// // it doesnt alter the array
+// it doesnt alter the array
 // console.log(arr)
 
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  

@@ -1,3 +1,6 @@
+//Objects does not only accpet the property and value 
+// property can be a array as well
+// anything in jvaascript can be represented inside a object
 const ObjectData ={
     name : "samsung",
     Manufacturer : "S Korea",

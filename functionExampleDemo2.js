@@ -4,7 +4,7 @@
 // };
 // console.log(add(5, 3)); // Outputs 8
 
-//Function as call back 
+// Function as call back 
 // const numbers = [1, 2, 3, 4, 5];
 // const squared = numbers.map(function(a) {
 //     return a * a;
