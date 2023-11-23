@@ -8,17 +8,17 @@
 //     // Function code here
 // };
 
+//Function as expression
+// const myFunction = function() {
+//     // Function code here
+// };
+
 // (function() {
 //     // IIFE code here
 // })();
 
 //Arrow Functions
 // const myFunction = () => {
-//     // Function code here
-// };
-
-//Function as expression
-// const myFunction = function() {
 //     // Function code here
 // };
 

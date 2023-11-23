@@ -54,10 +54,10 @@
 // var newArr=arr.flat(); //using flat() method  
 // console.log("After flattening the array:  "+newArr);  
 
-//default 1
-// var arr=[90,18,[13,20,[67,17,[56,45]]]]; //given multidimensional array  
-// var newArr=arr.flat(0,1); //using flat() method with a specified depth value.  
-// console.log("After flattening the array:  "+newArr);  
+// default 1
+var arr=[90,18,[13,20],[67,17,[56,45]]]; //given multidimensional array  
+var newArr=arr.flat(); //using flat() method with a specified depth value.  
+console.log("After flattening the array:  "+newArr);  //90,18,13,20,67,17[]
 
 //fill - replace the items in the array
 // var arr=["AngularJS","Node.js","JQuery"];  

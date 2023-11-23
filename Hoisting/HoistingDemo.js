@@ -1,10 +1,10 @@
 //with Var
-// console.log(i)
-// var i = 2;
-// i=4 // re-assign the value
-// console.log(i)
+console.log(i) // we call the value before initialiisation
+const i = 2;
+i=4 // re-assign the value
+console.log(i)
 
-
+// initialization happens second    
 // console.log(j)
 // let j =2;
 // j=1 // re-assign 
@@ -18,5 +18,5 @@
 // const data2 = 6;
 
 //TDZ - temporal dead zone
-console.log(data3)
-let data3 = 45;
+// console.log(data3)
+// let data3 = 45;
