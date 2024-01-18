@@ -1,4 +1,4 @@
-//Anonymous Function
+// Anonymous Function
 // const add = function(x, y) {
 //     return x + y;
 // };
@@ -11,18 +11,21 @@
 // });
 // console.log(squared); // Outputs [1, 4, 9, 16, 25]
 
+
+
 //IIFE - Immediatley invoked function expression
 // it starts with '('
+//() -> thi smakes the funciton behave as IIFE -> this make it to execute immediatly after reading the funciton
 // (function() {
 //     const message = "This is an IIFE!";
 //     console.log(message);
 // })();
 
-const result = (function() {
-    const num1 = 5;
-    const num2 = 3;
-    return num1 + num2;
-})();
+// const result = (function() {
+//     const num1 = 5;
+//     const num2 = 3;
+//     return num1 + num2;
+// })();
 
-console.log(result); // Outputs 8
+// console.log(result); // Outputs 8
 

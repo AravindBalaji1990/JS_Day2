@@ -76,8 +76,8 @@ var str = "Javascript";
 // console.log(str.slice(-5,-1));  
 
 //search - which index the word exists it will give as output
-var str="JavaScript is a scripting language. Scripting languages are often interpreted";  
-console.log(str.search("xyz"));  
+// var str="JavaScript is a scripting language. Scripting languages are often interpreted";  
+// console.log(str.search("xyz"));  
 
 // var str="JavaScript is a scripting language. Scripting languages are often interpreted";  
 // console.log(str.search(/Scripting/));  
@@ -89,3 +89,10 @@ console.log(str.search("xyz"));
 // console.log(typeof data)
 // data = data.toString()
 // console.log(typeof data)
+
+const regexpattern = /^[a-zA-Z0-9]+$/;
+const regex = new RegExp(regexpattern);
+
+const teststr = "Hello";
+const isvalid = regex.test(teststr)
+console.log(isvalid)

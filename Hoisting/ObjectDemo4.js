@@ -1,10 +1,10 @@
 // iterate through the objects
-const mydata = {}
-for (let key in {prop1:"val1",prop2:2}){
-    mydata[key] = mydata[key]
-}
+// const mydata = {}
+// for (let key in {prop1:"val1",prop2:2}){
+//     mydata[key] = mydata[key]
+// }
 
-console.log(mydata)
+// console.log(mydata)
 
 // iterate the values inside the objects
 const mydata1 ={

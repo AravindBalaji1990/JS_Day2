@@ -8,7 +8,7 @@
 //     // Function code here
 // };
 
-//Function as expression
+// //Function as expression
 // const myFunction = function() {
 //     // Function code here
 // };

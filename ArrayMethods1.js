@@ -3,45 +3,50 @@
 // var arr2=["Java","JavaScript","Android"];  
 // var result=arr1.concat(arr2);  
 // console.log(result);  
-// console.log(arr1);  // the existin array will not be affected
+// console.log(arr1);  
+// console.log(arr2);  
 
 // copy with in 
 //      [0          ,1        ,       2,        3]        
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
 // // place at 0th position, the element between 1st and 2nd position. 
 // // copies the elemtn between source and target 
-// var result=arr.copyWithin(0,1,2);  
+// //copywithin(target, startindex, endindex) -> target will be replaced by startindex
+// var result=arr.copyWithin(0,2,3);  
 // console.log(result);  
-
+//         0         , 1        ,  2    ,   3
 //  var arr=["AngularJS","Node.js","JQuery","Bootstrap"];  
 // // place from 1st position, the elements after 2nd position.  
+
 // var result=arr.copyWithin(1,2);  
 // console.log(result);  
 
-
+//         0        , 1      , 2       , 3
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"];  
 // // place from 2nd position, the elements after 0th position.  
 // var result=arr.copyWithin(2);  
 // console.log(result);  
 
 // entries -> it gets the index & values in the array as a key-value pair 
+//        0       1        2          3       4
 // var arr=['John','Michael','Embrose','Herry','Lewis'];  
 // var itr=arr.entries();  
 // console.log("After applying the entries method:"+ itr); 
-// for(const[index,value] of arr.entries()){
-//     console.log("Index data : ", index)
-//     console.log("value data : ", value)
+// for(let[a,b] of arr.entries()){
+//     console.log("Index data : ", a)
+//     console.log("value data : ", b)
 // }
 
 
 // every  - where all the elements inside the array are put to test 
 // its returns wither true/false
 // to validate agians the function
-// var marks=[1,0,4,3,7];  
+// var marks=[0,-1,8];  
 // // function with argument and return type
+// // named fucntion wiht argument/parameter
 // function check(value)  
 // {  
-//   return value<0;   
+//   return value<=0;   
 // }   
 // console.log(marks.every(check));  
 
@@ -55,9 +60,9 @@
 // console.log("After flattening the array:  "+newArr);  
 
 // default 1
-var arr=[90,18,[13,20],[67,17,[56,45]]]; //given multidimensional array  
-var newArr=arr.flat(); //using flat() method with a specified depth value.  
-console.log("After flattening the array:  "+newArr);  //90,18,13,20,67,17[]
+// var arr=[90,18,[13,20],[67,17,[56,45]]]; //given multidimensional array  
+// var newArr=arr.flat(); //using flat() method with a specified depth value.  
+// console.log("After flattening the array:  "+newArr);  //90,18,13,20,67,17[]
 
 //fill - replace the items in the array
 // var arr=["AngularJS","Node.js","JQuery"];  
@@ -88,9 +93,10 @@ console.log("After flattening the array:  "+newArr);  //90,18,13,20,67,17[]
 
 //find
 // var arr=[5,22,19,25,34];  
-// // we usea array/lambda way to find the condition
-// // but it will show the result at the first hit 
-// // it will not go beyond that 
+// we usea array/lambda way to find the condition
+// but it will show the result at the first hit 
+// it will not go beyond that 
+// it will stop to execute as soon as the condition is satisfied but it will not iterate through out the array
 // var result=arr.find(x=>x>20);  
 // console.log(result)  
 
@@ -114,12 +120,14 @@ console.log("After flattening the array:  "+newArr);  //90,18,13,20,67,17[]
 // console.log("Orginal array: "+arr);  
 // console.log("Extracted element: "+arr.pop());  
 // console.log("Remaining elements: "+ arr);  
+// console.log("Extracted element: "+arr.pop());  
+// console.log("Remaining elements: "+ arr);  
 
 // push -> add the items at the end of the array
 // var arr=["AngularJS","Node.js"];  
 // console.log('original : ' + arr)
 // arr.push("JQuery");  
-// console.log(arr);  
+// console.log("the new aray after push :",arr);  
 // //new array
 // var arr=["AngularJS","Node.js"];  
 // console.log("Length before invoking push(): "+arr.length);  
@@ -129,12 +137,12 @@ console.log("After flattening the array:  "+newArr);  //90,18,13,20,67,17[]
 
 //slice
 //      [0          , 1       ,  2     ,3        ]
-// var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
+var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
 // slice(starting index value of first, excludes the index)
-// var result=arr.slice(1,3);  
-// console.log(result); 
+var result=arr.slice(1,3);  
+console.log(result); 
 // it doesnt alter the array
-// console.log(arr)
+console.log(arr)
 
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
 // var result=arr.slice(0,3);  
