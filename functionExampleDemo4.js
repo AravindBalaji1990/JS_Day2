@@ -16,30 +16,30 @@
 
 //fibonacci example
 
-// function* fibonacciGenerator() {
-//     let a = 0, b = 1;
-//     while (true) {
-//         yield a;
-//         [a, b] = [b, a + b];
-//     }
-// }
-
-// const generator1 = fibonacciGenerator();
-
-// for (let i = 0; i < 10; i++) {
-//     console.log(generator1.next().value);
-// }
-
-//Example for yield
-function* myGenerator() {
-    yield 1;
-    yield 2;
-    yield 3;
+function* fibonacciGenerator() {
+    let a = 0, b = 1;
+    while (true) {
+        yield a;
+        [a, b] = [b, a + b];
+    }
 }
 
-const generator2 = myGenerator();
+const generator1 = fibonacciGenerator();
 
-console.log(generator2.next()); // { value: 1, done: false }
-console.log(generator2.next()); // { value: 2, done: false }
-console.log(generator2.next()); // { value: 3, done: false }
-console.log(generator2.next()); // { value: undefined, done: true }
+for (let i = 0; i < 10; i++) {
+    console.log(generator1.next().value);
+}
+
+//Example for yield
+// function* myGenerator() {
+//     yield 1;
+//     yield 2;
+//     yield 3;
+// }
+
+// const generator2 = myGenerator();
+
+// console.log(generator2.next()); // { value: 1, done: false }
+// console.log(generator2.next()); // { value: 2, done: false }
+// console.log(generator2.next()); // { value: 3, done: false }
+// console.log(generator2.next()); // { value: undefined, done: true }

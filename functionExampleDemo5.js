@@ -1,11 +1,19 @@
 //Arrow Functions
-const myFunction = (a,b) => {
+const simpleprint =(a,b) =>{
+    console.log("this is a simple arrow funciton with no parameter")
+}
+simpleprint()
+
+const mutiply = (a,b) => {
     return a*b;
 };
 
-console.log(myFunction(2,3))
+simpleprint() = mutiply(3,4)
 
-const myFunction1 = () => {
+console.log(mutiply(2,3))
+console.log(a(4,5,3))
+
+let addition = () => {
     return 1+1;
 };
-console.log(myFunction1())
+console.log(addition())

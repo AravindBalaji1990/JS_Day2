@@ -6,19 +6,19 @@
 // var z=13e4;//exponent value, output: 130000  
 // console.log(z)
 // var n=new Number(16);//integer value by number object  
-// console.log(n.valueOf())
+// console.log(n.valueOf)
 
 //fixed
 // var a=98.9721;  
-// console.log(a.toFixed());  
+// console.log(a.toFixed()); // rounding to nearest value 
 
-// var b=98.9721;  
-// console.log(typeof b)
-// console.log(b.toFixed(2));  
+var b=98.9721;  
+console.log(typeof b)
+console.log(b.toFixed(2)); // correcting it to 2 decimal places 
 
-//precision
-//  var c=98.1726546E33;  
-// console.log(c.toPrecision(2));  
+// //precision
+ var c=98.1726546E33;  
+console.log(c.toPrecision(2));  
 
 //1234567890123456789012345678901234567890
                         //1234567890123456789012345678901234567890n

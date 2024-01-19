@@ -18,9 +18,9 @@
 // })();
 
 //Arrow Functions
-// const myFunction = () => {
-//     // Function code here
-// };
+const myFunction = () => {
+    // Function code here
+};
 
 //generator Function
 // function* myGenerator() {
