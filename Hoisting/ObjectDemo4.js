@@ -8,7 +8,8 @@
 
 // iterate the values inside the objects
 const mydata1 ={
-    prop1:"val1",prop2:2
+    prop1:"val1",
+    prop2:2
 }
 
 for(let key in mydata1){

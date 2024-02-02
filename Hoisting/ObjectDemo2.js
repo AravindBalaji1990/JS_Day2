@@ -11,7 +11,7 @@
 // console.log(ObjectData.data[2])
 // console.log(ObjectData)
 
-const ObjectData1 = [{
+const objectData1 = [{
     name : "samsung",
     Manufacturer : "S Korea",
     Price : 123334,

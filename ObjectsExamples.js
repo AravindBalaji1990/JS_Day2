@@ -36,6 +36,7 @@ function emp(id,name,salary){
     this.salary=salary;  
    
     this.changeSalary=changeSalary;  
+    // this is a function with variable
     function changeSalary(otherSalary){  
     this.salary=otherSalary;  //salary will be updated
     }  

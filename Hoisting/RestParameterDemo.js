@@ -5,9 +5,9 @@ function sum(...numbers) {
 } 
 console.log(sum(1, 2, 3,4,5));//6+1=7 (1+2+3)+0=> 
 
-function sub(a,b,c){
+// function sub(a,b,c){
     
-}
+// }
 // function range(start, end) { 
 //     return Array.from({ 
 //         length: end - start + 1

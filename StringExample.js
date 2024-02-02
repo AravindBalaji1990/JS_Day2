@@ -21,8 +21,8 @@
 // var numvalue = Number(str)
 // console.log(parseInt(numvalue))
 // console.log(str.substr(5,5));// deprecated  
-// //new way
-       //0123 
+//new way
+       // 0123 
 // var str="Javascript";  
 // console.log(str.substring(0,4));  // 0,1,2,3
 // console.log(str.length); 
@@ -30,7 +30,7 @@
 // console.log(str.toUpperCase());  
 // console.log(str.startsWith('Ja'));
 // console.log(str.endsWith('pt'));
-// console.log(str == 'Javascript'); 
+// console.log(str == 'Javascript'); // case sensitivity
 // console.log(5 == '5'); 
  
 
@@ -66,21 +66,21 @@
 
 //slice
 //         0123456789    
-var str = "Javascript";  
+// var str = "Javascript";  
 // console.log(str.slice(2,5));   
 
 // var str = "Javascript";  
 // console.log(str.slice(-5)); 
 
-// // var str = "Javascript";  
+// // // var str = "Javascript";  
 // console.log(str.slice(-5,-1));  
 
 //search - which index the word exists it will give as output
-// var str="JavaScript is a scripting language. Scripting languages are often interpreted";  
-// console.log(str.search("xyz"));  
+var str="JavaScript is a scripting language. Scripting languages are often interpreted";  
+console.log(str.search("xyz"));  
 
-// var str="JavaScript is a scripting language. Scripting languages are often interpreted";  
-// console.log(str.search(/Scripting/));  
+var str="JavaScript is a scripting language. Scripting languages are often interpreted";  
+console.log(str.search(/Scripting/));  
 
 //parse - converting form one type to another
 // var data =100;
@@ -90,9 +90,9 @@ var str = "Javascript";
 // data = data.toString()
 // console.log(typeof data)
 
-const regexpattern = /^[a-zA-Z0-9]+$/;
-const regex = new RegExp(regexpattern);
+// const regexpattern = /^[a-zA-Z0-9]+$/;
+// const regex = new RegExp(regexpattern);
 
-const teststr = "Hello";
-const isvalid = regex.test(teststr)
-console.log(isvalid)
+// const teststr = "Hello";
+// const isvalid = regex.test(teststr)
+// console.log(isvalid)
