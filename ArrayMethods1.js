@@ -115,7 +115,7 @@
 // })
 
 
-//pop - extracts the last elemet by default
+// pop - extracts the last elemet by default
 // var arr=["AngularJS","Node.js","JQuery"];  
 // console.log("Orginal array: "+arr);  
 // console.log("Extracted element: "+arr.pop());  
@@ -124,26 +124,35 @@
 // console.log("Remaining elements: "+ arr);  
 
 // push -> add the items at the end of the array
-// var arr=["AngularJS","Node.js"];  
-// console.log('original : ' + arr)
-// arr.push("JQuery");  
-// console.log("the new aray after push :",arr);  
-// //new array
-// var arr=["AngularJS","Node.js"];  
-// console.log("Length before invoking push(): "+arr.length);  
-// arr.push("JQuery","Bootstrap");  
-// console.log("Length after invoking push(): "+arr.length);   
-// console.log("Update array: "+arr);  
+var arr=["AngularJS","Node.js"];  
+console.log('original : ' + arr)
+arr.push("JQuery");  
+console.log("the new aray after push :",arr);  
+//new array
+var arr=["AngularJS","Node.js"];  
+console.log("Length before invoking push(): "+arr.length);  
+arr.push("JQuery","Bootstrap");  
+console.log("Length after invoking push(): "+arr.length);   
+console.log("Update array: "+arr); 
+arr.unshift("vuejs") 
+console.log("Update array: "+arr); 
 
 //slice
 //      [0          , 1       ,  2     ,3        ]
-var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
-// slice(starting index value of first, excludes the index)
-var result=arr.slice(1,3);  
-console.log(result); 
-// it doesnt alter the array
-console.log(arr)
+// var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
+// // slice(starting index value of first, excludes the index)
+// var result=arr.slice(1,3);  
+// console.log(result); 
+// // it doesnt alter the array
+// console.log(arr)
 
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
 // var result=arr.slice(0,3);  
 // console.log(result);  
+
+//map() it willt ake the array ans use the same array to performa logic
+
+// var num = [1,2,3]
+// // expresseion from the num take each value put it in a variable a 
+// var result = num.map(a => a)
+// console.log(result)

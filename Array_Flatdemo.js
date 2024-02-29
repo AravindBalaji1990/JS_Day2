@@ -7,6 +7,6 @@
 
 //if the depth is 2
 //                 0  1  2  3  4
-const nestedarray =[1,[2,[3,[4,[5]]]]]
-const data =nestedarray.flat(Infinity) 
-console.log(data)// 1,2,3[4,[5]]
+// const nestedarray =[1,[2,[3,[4,[5]]]]]
+// const data =nestedarray.flat(Infinity) 
+// console.log(data)// 1,2,3[4,[5]]

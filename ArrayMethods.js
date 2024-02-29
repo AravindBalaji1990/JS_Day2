@@ -1,6 +1,6 @@
-let data1 =[1,2,3,4,5,6,7,8,9,10]
-let data2 =[1,2,3,4,5,6,7,8,9,10]
-console.log(data1.concat(data2))
+// let data1 =[1,2,3,4,5,6,7,8,9,10]
+// let data2 =[1,2,3,4,5,6,7,8,9,10]
+// console.log(data1.concat(data2))
 // delete data[2]
 // console.log(data)
 
@@ -10,6 +10,8 @@ console.log(data1.concat(data2))
 // console.log(afterdata1)
 // let final = afterdata.concat(afterdata1)
 // console.log(final)
+
+
 
 
 
