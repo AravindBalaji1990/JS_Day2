@@ -41,12 +41,12 @@
 // every  - where all the elements inside the array are put to test 
 // its returns wither true/false
 // to validate agians the function
-// var marks=[0,-1,8];  
-// // function with argument and return type
-// // named fucntion wiht argument/parameter
+// var marks=[0,6,2];  
+// // // function with argument and return type
+// // // named fucntion wiht argument/parameter
 // function check(value)  
 // {  
-//   return value<=0;   
+//   return value<=5;   
 // }   
 // console.log(marks.every(check));  
 
@@ -70,8 +70,10 @@
 // console.log(arr);  
 
 // var arr=["AngularJS","Node.js","JQuery"];  
-// // fill the data from the nth position
-// var result=arr.fill("Bootstrap",1);  
+// fill the data from the nth position
+//fill("value",startindex, end index)
+//if end index is not available then replace value till the end index
+// var result=arr.fill("Bootstrap",2);  
 // console.log(arr);  
 
 //Array.prototype.filter -> exact result
@@ -79,12 +81,12 @@
 // filter -> its going to identofy the condition across
 // all the vlaues inside the array
 // var marks=[50,40,45,37,20];// array 
-// // function with parameter  
-// function check(value)  
+// // // function with parameter  
+// function checkdata(marks)  
 // {  
-//   return value>30;    
+//   return marks>30;    
 // }  
-// console.log(marks.filter(check));  
+// console.log(marks.filter(checkdata));  
 
 // function test(element, index, array) {  
 //     return element>=25;  
@@ -93,18 +95,33 @@
 
 //find
 // var arr=[5,22,19,25,34];  
+// for(i=0;i<arr.length; i++){
+//     if(arr[i]>20){
+//         console.log(arr[i])
+//         break;
+//     }
+// }
 // we usea array/lambda way to find the condition
 // but it will show the result at the first hit 
 // it will not go beyond that 
 // it will stop to execute as soon as the condition is satisfied but it will not iterate through out the array
-// var result=arr.find(x=>x>20);  
+// var result=arr.find(x => x>20);  
 // console.log(result)  
 
 //find index - similar to the find
 // but it pull the idex value instead of the exact value
-// var arr=[5,1,19,22,25,34];  
+//      [0,1,2, 3, 4, 5]
+// var arr=[25,1,19,5,4,22];  
+//find INdex will have a logic and check for the validariton of the logic
+//out put will be the index value of the satisfied condition
+// arr.sort((a,b) =>a-b) //ascending order 
+
+// arr.sort((a,b) => b-a) //descending order 
+// console.log(arr)
 // var result=arr.findIndex(x=>x>20);  
+
 // console.log(result) 
+// console.log(arr.length-2)
 
 // for each - iterates with in the array
 // var arr = ["C", "C++", "Python"];  
@@ -124,26 +141,26 @@
 // console.log("Remaining elements: "+ arr);  
 
 // push -> add the items at the end of the array
-var arr=["AngularJS","Node.js"];  
-console.log('original : ' + arr)
-arr.push("JQuery");  
-console.log("the new aray after push :",arr);  
-//new array
-var arr=["AngularJS","Node.js"];  
-console.log("Length before invoking push(): "+arr.length);  
-arr.push("JQuery","Bootstrap");  
-console.log("Length after invoking push(): "+arr.length);   
-console.log("Update array: "+arr); 
-arr.unshift("vuejs") 
-console.log("Update array: "+arr); 
+// var arr=["AngularJS","Node.js"];  
+// console.log('original : ' + arr)
+// arr.push("JQuery");  
+// console.log("the new aray after push :",arr);  
+// //new array
+// var arr=["AngularJS","Node.js"];  
+// console.log("Length before invoking push(): "+arr.length);  
+// arr.push("JQuery","Bootstrap");  
+// console.log("Length after invoking push(): "+arr.length);   
+// console.log("Update array: "+arr); 
+// arr.unshift("vuejs") 
+// console.log("Update array: "+arr); 
 
-//slice
-//      [0          , 1       ,  2     ,3        ]
+//slice - mean
+   //   [0          , 1       ,  2     ,3          ]
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
-// // slice(starting index value of first, excludes the index)
-// var result=arr.slice(1,3);  
+// // slice(starting index value will be taken, excluded the index)
+// var result=arr.slice(0,3);  
 // console.log(result); 
-// // it doesnt alter the array
+// // it doesnt alter the original array
 // console.log(arr)
 
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
