@@ -7,8 +7,9 @@
 // console.log(arr2);  
 
 // copy with in 
-//      [0          ,1        ,       2,        3]        
-// var arr=["AngularJS","Node.js","JQuery","Bootstrap"]  
+//      [0          ,1        ,       2,        3 ]        
+// var arr=["AngularJS","Node.js","JQuery","Bootstrap"] 
+// //var arr=["Node.js","JQuery","JQuery","Bootstrap"]  -> Output
 // // place at 0th position, the element between 1st and 2nd position. 
 // // copies the elemtn between source and target 
 // //copywithin(target, startindex, endindex) -> target will be replaced by startindex
@@ -23,6 +24,7 @@
 
 //         0        , 1      , 2       , 3
 // var arr=["AngularJS","Node.js","JQuery","Bootstrap"];  
+// var arr=["AngularJS","Node.js","AngularJS","Node.js"];  
 // // place from 2nd position, the elements after 0th position.  
 // var result=arr.copyWithin(2);  
 // console.log(result);  
@@ -53,12 +55,14 @@
 // //flat
 // var arr=['a','b',['c','d']]; //given 2D array  
 // var newArr=arr.flat(); //using flat() method  
-// console.log("After flattening the array:  "+newArr);  
+// console.log("After flattening the array:  "+ newArr);  
 
 // var arr=[90,18,[89,56],[13,20,[67,17]]]; //given multidimensional array  
-// var newArr=arr.flat(); //using flat() method  
+// var newArr=arr.flat(1); //using flat() method  
 // console.log("After flattening the array:  "+newArr);  
 
+var arr =[1,2,[3,4,[5,6]]]
+console.log(arr.flat(Infinity))
 // default 1
 // var arr=[90,18,[13,20],[67,17,[56,45]]]; //given multidimensional array  
 // var newArr=arr.flat(); //using flat() method with a specified depth value.  

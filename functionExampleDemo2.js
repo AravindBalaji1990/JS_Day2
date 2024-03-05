@@ -5,11 +5,11 @@
 // console.log(add(5, 3)); // Outputs 8
 
 // Function as call back 
-// const numbers = [1, 2, 3, 4, 5];
-// const squared = numbers.map(function(a) {
-//     return a * a;
-// });
-// console.log(squared); // Outputs [1, 4, 9, 16, 25]
+const numbers = [1, 2, 3, 4, 5];
+const squared = numbers.map(function(a) {
+    return a * a;
+});
+console.log(squared); // Outputs [1, 4, 9, 16, 25]
 
 
 
