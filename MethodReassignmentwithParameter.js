@@ -6,6 +6,8 @@ let suibtract =(a,b) =>{
     return a-b;
 } 
 
+// addition(2,3) = subtraction(5,6)
+// subtraction(1,3)
 let reassginaddition = addition;
 
 let result = reassginaddition(1,2);

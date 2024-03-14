@@ -8,13 +8,13 @@
 
 // copy with in 
 //      [0          ,1        ,       2,        3 ]        
-// var arr=["AngularJS","Node.js","JQuery","Bootstrap"] 
-// //var arr=["Node.js","JQuery","JQuery","Bootstrap"]  -> Output
-// // place at 0th position, the element between 1st and 2nd position. 
-// // copies the elemtn between source and target 
-// //copywithin(target, startindex, endindex) -> target will be replaced by startindex
-// var result=arr.copyWithin(0,2,3);  
-// console.log(result);  
+var arr=["AngularJS","Node.js","JQuery","Bootstrap"] 
+// var arr=["Node.js","JQuery","JQuery","Bootstrap"]  -> Output
+// place at 0th position, the element between 1st and 2nd position. 
+// copies the elemtn between source and target 
+//copywithin(target, startindex, endindex) -> target will be replaced by startindex
+var result=arr.copyWithin(0,1,3);  
+console.log(result);  
 //         0         , 1        ,  2    ,   3
 //  var arr=["AngularJS","Node.js","JQuery","Bootstrap"];  
 // // place from 1st position, the elements after 2nd position.  

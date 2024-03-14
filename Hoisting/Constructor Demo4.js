@@ -12,7 +12,12 @@ function Person(name, age) {
     this.sayHello= function() {
          console.log(`Hello, my name is ${this.name}.`) 
         } 
-        } 
+
+        this.test = function(a,b){
+            result = a+b
+            console.log(result)
+        }
+    } 
 
 // Creating an object using the constructor        
 //we are declaring a object fro the constrcutor function 
@@ -23,3 +28,4 @@ const person2 = new Person("Johnny", 29);
 // Outputs: "Hello, my name is John."
 person1.sayHello(); 
 person2.sayHello();
+person2.test(2,3)

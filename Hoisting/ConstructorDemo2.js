@@ -1,7 +1,4 @@
 //contructor with class
-// object declaration in javascript
-const sample = new Person("Otto");
-sample.introduce(); // Hello, my name is Otto
 
 class Person {
   // declare the constructor
@@ -16,7 +13,9 @@ class Person {
   }
 }
 
-
+// / object declaration in javascript
+const sample = new Person("Otto");
+sample.introduce(); // Hello, my name is Otto
 
 // const sam = new Person("samoan");
 // sam.introduce()

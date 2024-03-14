@@ -1,13 +1,13 @@
 //array has been decalred
-// const arr1 = [1, 2, 3];
-// //spread operator used inside the array
-// const arr2 = [...arr1, 4, 5]; 
-// console.log(arr2);// combines the array
+const arr1 = [1, 2, 3];
+//spread operator used inside the array
+const arr2 = [...arr1, 4, 5]; 
+console.log(arr2);// combines the array
 
 // convert the string to characters
-// var data = "sample"
-// var datachar = [...data]
-// console.log(datachar)
+var data = "sample"
+var datachar = [...data]
+console.log(datachar)
 
 //skipping elements while splitting
 // const numbers1 = [1,2,3,4,5]
@@ -31,10 +31,10 @@
 // console.log(addition(...numbers))
 
 
-function addition(...number){
-    return number.reduce((num, num1)=>num+num1,0)
-}
+// function addition(...number){
+//     return number.reduce((num, num1)=>num+num1,0)
+// }
 
-console.log(addition(1,2,3,4))
-console.log(addition(1,2,3,4,5,6,7))
+// console.log(addition(1,2,3,4))
+// console.log(addition(1,2,3,4,5,6,7))
 

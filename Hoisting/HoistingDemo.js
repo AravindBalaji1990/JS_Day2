@@ -20,8 +20,8 @@
 
 // //with let and const
 
-// console.log(data2)
-// const data2 = 6;
+console.log(data2)
+const data2 = 6;
 
 //TDZ - temporal dead zone
 // console.log(data3)

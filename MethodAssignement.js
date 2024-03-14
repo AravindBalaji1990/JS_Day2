@@ -1,8 +1,9 @@
-const firstmethod= ()=>{
+// method to metho reassignemnts
+let firstmethod= ()=>{
     console.log("firstmethod")
 }
 
-const secondethod= ()=>{
+let secondethod= ()=>{
     console.log("secondmethod")
 }
 
