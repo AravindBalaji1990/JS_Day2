@@ -3,7 +3,7 @@
 class Person {
   // declare the constructor
   //"constrcutor" -> keyword
-  constructor(xyz) {
+  constructor() {
     this.name = xyz;
   }
 

@@ -1,10 +1,10 @@
 //constructor Function whay of declaring a constrcutor
 
-function Person(name, age) { 
+function Person() { 
     // this -> its  akeywor din js 
     // it denotes the value of the variable at that instance
-    this.name= name; 
-    this.age= age; 
+    // this.name= name; 
+    // this.age= age; 
 
     // this is a method function
     // it will denote a anonymous function
