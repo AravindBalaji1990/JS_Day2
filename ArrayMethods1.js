@@ -143,13 +143,13 @@
 //find index - similar to the find
 // but it pull the idex value instead of the exact value
 //      [0,1,2, 3, 4, 5]
-// var arr=[25,1,19,5,4,22];  
+var arr=[25,1,1,5,4,22];  
 // //find INdex will have a logic and check for the validariton of the logic
 // //out put will be the index value of the satisfied condition
-// arr.sort((a,b) =>a-b) //ascending order 
-// console.log(arr)
-// arr.sort((a,b) => b-a) //descending order 
-// console.log(arr)
+arr.sort((a,b) => a-b) //ascending order 
+console.log(arr)
+arr.sort((a,b) => b-a) //descending order 
+console.log(arr)
 // var result=arr.findIndex(x=>x>20);  
 
 // console.log(result) 
